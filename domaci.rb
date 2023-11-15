@@ -132,13 +132,13 @@ class NovaKlasa
   end
 end
 
-t = Nekaklasa.new('1Eb0lYATYg10apDvKXSi9woS61Hj8XfrL5h4mxLzy6cM', 'Sheet1')
-t.connect
-t.ucitaj_matricu(t.worksheet)
+# t = Nekaklasa.new('1Eb0lYATYg10apDvKXSi9woS61Hj8XfrL5h4mxLzy6cM', 'Sheet1')
+# t.connect
+# t.ucitaj_matricu(t.worksheet)
 
-t2 = Nekaklasa.new('1Eb0lYATYg10apDvKXSi9woS61Hj8XfrL5h4mxLzy6cM', 'Sheet2')
-t2.connect
-t2.ucitaj_matricu(t2.worksheet)
+# t2 = Nekaklasa.new('1Eb0lYATYg10apDvKXSi9woS61Hj8XfrL5h4mxLzy6cM', 'Sheet2')
+# t2.connect
+# t2.ucitaj_matricu(t2.worksheet)
 
 # 2.
 # p t.row(0)
@@ -170,8 +170,9 @@ t2.ucitaj_matricu(t2.worksheet)
 # p t.PrvaKolona.reduce &:+
 # p t2.mat_redovi[4].reduce &:+
 
-p t.mat_kolone
-p t2.mat_kolone
+# printovi
+# p t.mat_kolone
+# p t2.mat_kolone
 
 # 7. ne ukljucuje se total
 
